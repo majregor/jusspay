@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_fragment_bg"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/textFieldFirstName_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textFieldFirstName_signup"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/textFieldLastName_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textFieldLastName_signup"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/textFieldPhone_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textFieldPhone_signup"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/textFieldEmail_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textFieldEmail_signup"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/textFieldPassword_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textFieldPassword_signup"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/textFieldPIN_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textFieldPIN_signup"
+        android:inputType="number" >
+    </EditText>
+    <EditText
+        android:id="@+id/textFieldUserName_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/textFieldUserName_signup"
+        android:inputType="textPersonName" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.36"
+        android:paddingBottom="15dp" >
+
+        <Button
+            android:id="@+id/btnSignup_signup"
+            style="@style/button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/green_button"
+            android:drawableLeft="@drawable/ic_btn_login"
+            android:drawablePadding="-10sp"
+            android:hint="@string/btnSignup_signup"
+            android:text="@string/btnSignup_signup"
+            android:width="230dp" />
+
+        <TextView
+            android:id="@+id/text_agreement_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:clickable="true"
+            android:onClick="resetPassword"
+            android:text="@string/text_agreement_signup" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text_agreement_signup"
+            android:background="@color/light_gray" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

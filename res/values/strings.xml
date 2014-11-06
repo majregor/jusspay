@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Juss Pay</string>
+    <string name="welcome">Make Payments &amp;  Money Transfers \n Easily . Faster . Cleaner . Safely</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_signup">Sign Up, It\'s Free</string>
+    <string name="logo_long">JussPay</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="textFieldEmail">Email</string>
+    <string name="textFieldPassword">Password</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="text_signup">Sign Up</string>
+    <string name="text_new_to_jusspay">New to JussPay?</string>
+
+    <!-- Action Bar -->
+    <string name="search_action_title">Search</string>
+    <!-- Signup Page -->
+    <string name="text_agreement_signup">By tapping \"Sign Up\" I agree to ADIOS user Agreement &amp; Privacy</string>
+    <string name="textFieldFirstName_signup">First Name</string>
+    <string name="textFieldLastName_signup">Last Name</string>
+    <string name="textFieldPhone_signup">Phone (Mobile)</string>
+    <string name="textFieldEmail_signup">Email</string>
+    <string name="textFieldPassword_signup">Password (8\-20 characters)</string>
+    <string name="textFieldPIN_signup">PIN (4 Digits)</string>
+    <string name="textFieldUserName_signup">User Name</string>
+    <string name="btnSignup_signup">Sign Up, It\'s Free</string>
+    <string name="btnSignup_openmail">Confirmed? Login</string>
+    <string name="texViewSignup_confirm">JussPay sent you an email, for your security check your email to finish the signup.</string>
+    <string name="email_description">Email Sent</string>
+    <string name="text_signup_questions">Questions? Call us 24/7</string>
+    <string name="text_signup_login">Confirmed email? Login</string>
+
+    <!-- Anonymous Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items_anonymous">
+        <item>Welcome</item>
+        <item>Log In</item>
+        <item>Sign Up, It\'s Free</item>
+        <item>About JussPay</item>
+    </string-array>
+
+    <!-- Authenticated Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items_authenticated">
+        <item>Home</item>
+        <item>My Account</item>
+        <item>Recent Activity</item>
+        <item>My Recipients</item>
+        <item>Add Credit</item>
+        <item>Fees</item>
+        <item>Messages</item>
+        <item>Log Out</item>
+        <item>About JussPay</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons_anonymous">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_login</item>
+        <item>@drawable/ic_signup</item>
+        <item>@drawable/ic_help</item>
+    </array>
+    <array name="nav_drawer_icons_authenticated">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_account</item>
+        <item>@drawable/ic_signup</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_help</item>
+    </array>
+
+    <!-- HOME Page -->
+    <string name="text_name_home">User\'s Names</string>
+    <string name="text_phone_home">Email</string>
+    <string name="text_bal_home">Bal.</string>
+    <string name="hint_bal_home">0.00</string>
+    <string name="button_add_credit_home">Add Credit</string>
+    <string name="button_send_home">Send \/ Pay</string>
+    <string name="button_recent_home">Recent</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- ACCOUNT Page -->
+    <string name="text_name_account">User\'s Names</string>
+    <string name="text_phone_account">Email</string>
+    <string name="text_bal_account">Bal.</string>
+    <string name="hint_bal_account">0.00</string>
+    <string name="button_add_credit_account">Add Credit</string>
+    <string name="button_send_account">Send \/ Pay</string>
+    <string name="button_recent_account">Recent</string>
+    
+    <string-array name="list_menu_items_account">
+        <item>Profile</item>
+        <item>Account History</item>
+        <item>Messages</item>
+        <item>Support</item>
+        <item>Settings</item>
+        <item>Log Out</item>
+    </string-array>
+    <array name="list_menu_icons_account">
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_history</item>
+        <item>@drawable/ic_message</item>
+        <item>@drawable/ic_support</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_logout_green</item>
+    </array>
+    
+    <!-- PROFILE Page -->
+    <string name="button_image_profile">Browse</string>
+    <string name="textView_portrait_profile">Edit Portrait</string>
+    <string name="textView_firstName_profile">First Name</string>
+    <string name="textView_lastName_profile">Last Name</string>
+    <string name="textView_username_profile">User Name</string>
+    <string name="textView_phone_profile">Phone</string>
+    <string name="button_save_profile">Save...</string>
+    
+    
+    
+    <!-- Recipients Page -->
+    <string name="recipients_name_placeholder">First Name</string>
+    <string name="title_activity_recipients">My Recipients</string>
+    <string name="tab_title_all_recipients">All</string>
+    <string name="tab_title_people_recipients">People</string>
+    <string name="tab_title_business_recipients">Businesses</string>
+
+</resources>
